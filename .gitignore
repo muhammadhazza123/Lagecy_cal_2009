@@ -1,0 +1,52 @@
+# --- Build Artifacts ---
+*.o
+*.obj
+*.lo
+*.la
+*.al
+*.libs
+*.a
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+*.app
+
+# --- Executables ---
+calc
+loan
+test_run
+
+# --- Backup Files ---
+*.swp
+*.swo
+*~
+*.bak
+
+# --- Build Directories ---
+build/
+cmake-build-*/
+Debug/
+Release/
+x64/
+bin/
+obj/
+
+# --- Doxygen Output ---
+docs/
+html/
+latex/
+
+# --- IDE / Editor Files ---
+.vscode/
+.idea/
+*.code-workspace
+
+# --- OS Generated ---
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
